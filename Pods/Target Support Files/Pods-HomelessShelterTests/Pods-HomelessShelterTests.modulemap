@@ -1,0 +1,6 @@
+framework module Pods_HomelessShelterTests {
+  umbrella header "Pods-HomelessShelterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

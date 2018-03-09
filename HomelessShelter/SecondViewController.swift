@@ -7,9 +7,21 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
-class SecondViewController: UIViewController {
+class Login: UIViewController {
 
+    @IBOutlet weak var emailField: UITextField!
+    
+    @IBOutlet weak var passwordField: UITextField!
+    
+    @IBAction func loginButton(_ sender: Any) {
+        Auth.auth().signIn(withEmail: emailField.text!, password: passwordField.text!) {(user, error) in
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

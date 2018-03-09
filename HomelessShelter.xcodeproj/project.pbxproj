@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89ADAC792051F8AF001BC881 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89ADAC782051F8AF001BC881 /* GoogleService-Info.plist */; };
 		89CA37CC20506D0F004A0121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA37CB20506D0F004A0121 /* AppDelegate.swift */; };
 		89CA37CE20506D0F004A0121 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA37CD20506D0F004A0121 /* FirstViewController.swift */; };
 		89CA37D020506D0F004A0121 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA37CF20506D0F004A0121 /* SecondViewController.swift */; };
@@ -15,6 +16,9 @@
 		89CA37D820506D0F004A0121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CA37D620506D0F004A0121 /* LaunchScreen.storyboard */; };
 		89CA37E320506D0F004A0121 /* HomelessShelterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA37E220506D0F004A0121 /* HomelessShelterTests.swift */; };
 		89CA37EE20506D0F004A0121 /* HomelessShelterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA37ED20506D0F004A0121 /* HomelessShelterUITests.swift */; };
+		DAD87BDE2810D8C6B3E07A02 /* Pods_HomelessShelterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38428DBA8C9E6FDF05EABA7 /* Pods_HomelessShelterTests.framework */; };
+		DFB728C89B8ED0E084D2E6DC /* Pods_HomelessShelter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BE86C9FA973EE9CC2AF4B9 /* Pods_HomelessShelter.framework */; };
+		F0ED619D5E46F4E16A9E76E5 /* Pods_HomelessShelterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C060CF962F05E4CA8665039C /* Pods_HomelessShelterUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017DABBEE49AFEB01BC45C9F /* Pods-HomelessShelterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomelessShelterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomelessShelterTests/Pods-HomelessShelterTests.release.xcconfig"; sourceTree = "<group>"; };
+		23BCA7D7F3D6C127DA90FBB0 /* Pods-HomelessShelterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomelessShelterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomelessShelterUITests/Pods-HomelessShelterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4347C43773B1F2CAF262336D /* Pods-HomelessShelterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomelessShelterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomelessShelterTests/Pods-HomelessShelterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68D8C6FABDC37B0C7797C12A /* Pods-HomelessShelter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomelessShelter.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomelessShelter/Pods-HomelessShelter.release.xcconfig"; sourceTree = "<group>"; };
+		89ADAC782051F8AF001BC881 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89CA37C820506D0F004A0121 /* HomelessShelter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomelessShelter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CA37CB20506D0F004A0121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89CA37CD20506D0F004A0121 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		89CA37E920506D0F004A0121 /* HomelessShelterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomelessShelterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CA37ED20506D0F004A0121 /* HomelessShelterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomelessShelterUITests.swift; sourceTree = "<group>"; };
 		89CA37EF20506D0F004A0121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2C8EF0C16637F63E71CCC1 /* Pods-HomelessShelterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomelessShelterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomelessShelterUITests/Pods-HomelessShelterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC136938D8C70B0C41B1F1FB /* Pods-HomelessShelter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomelessShelter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomelessShelter/Pods-HomelessShelter.debug.xcconfig"; sourceTree = "<group>"; };
+		C060CF962F05E4CA8665039C /* Pods_HomelessShelterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomelessShelterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BE86C9FA973EE9CC2AF4B9 /* Pods_HomelessShelter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomelessShelter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38428DBA8C9E6FDF05EABA7 /* Pods_HomelessShelterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomelessShelterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB728C89B8ED0E084D2E6DC /* Pods_HomelessShelter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD87BDE2810D8C6B3E07A02 /* Pods_HomelessShelterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0ED619D5E46F4E16A9E76E5 /* Pods_HomelessShelterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4888372FF55E96C9CF23A490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1BE86C9FA973EE9CC2AF4B9 /* Pods_HomelessShelter.framework */,
+				D38428DBA8C9E6FDF05EABA7 /* Pods_HomelessShelterTests.framework */,
+				C060CF962F05E4CA8665039C /* Pods_HomelessShelterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89CA37BF20506D0E004A0121 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				89CA37E120506D0F004A0121 /* HomelessShelterTests */,
 				89CA37EC20506D0F004A0121 /* HomelessShelterUITests */,
 				89CA37C920506D0F004A0121 /* Products */,
+				C58944A7E51E43E498218089 /* Pods */,
+				4888372FF55E96C9CF23A490 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		89CA37CA20506D0F004A0121 /* HomelessShelter */ = {
 			isa = PBXGroup;
 			children = (
+				89ADAC782051F8AF001BC881 /* GoogleService-Info.plist */,
 				89CA37CB20506D0F004A0121 /* AppDelegate.swift */,
 				89CA37CD20506D0F004A0121 /* FirstViewController.swift */,
 				89CA37CF20506D0F004A0121 /* SecondViewController.swift */,
@@ -128,6 +158,19 @@
 			path = HomelessShelterUITests;
 			sourceTree = "<group>";
 		};
+		C58944A7E51E43E498218089 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC136938D8C70B0C41B1F1FB /* Pods-HomelessShelter.debug.xcconfig */,
+				68D8C6FABDC37B0C7797C12A /* Pods-HomelessShelter.release.xcconfig */,
+				4347C43773B1F2CAF262336D /* Pods-HomelessShelterTests.debug.xcconfig */,
+				017DABBEE49AFEB01BC45C9F /* Pods-HomelessShelterTests.release.xcconfig */,
+				8A2C8EF0C16637F63E71CCC1 /* Pods-HomelessShelterUITests.debug.xcconfig */,
+				23BCA7D7F3D6C127DA90FBB0 /* Pods-HomelessShelterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89CA37F220506D0F004A0121 /* Build configuration list for PBXNativeTarget "HomelessShelter" */;
 			buildPhases = (
+				5FEC979CE1EE8DA98584EB3D /* [CP] Check Pods Manifest.lock */,
 				89CA37C420506D0F004A0121 /* Sources */,
 				89CA37C520506D0F004A0121 /* Frameworks */,
 				89CA37C620506D0F004A0121 /* Resources */,
+				189ADA5FDFB4BED35B1D4D29 /* [CP] Embed Pods Frameworks */,
+				94AA272A6FD6411E15CBDA8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89CA37F520506D0F004A0121 /* Build configuration list for PBXNativeTarget "HomelessShelterTests" */;
 			buildPhases = (
+				542664E18EBB540DA95E2315 /* [CP] Check Pods Manifest.lock */,
 				89CA37DA20506D0F004A0121 /* Sources */,
 				89CA37DB20506D0F004A0121 /* Frameworks */,
 				89CA37DC20506D0F004A0121 /* Resources */,
+				480F43284C1BB97406F46097 /* [CP] Embed Pods Frameworks */,
+				C93205E4F65E12E169826830 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89CA37F820506D0F004A0121 /* Build configuration list for PBXNativeTarget "HomelessShelterUITests" */;
 			buildPhases = (
+				579142B89279D56851F31E88 /* [CP] Check Pods Manifest.lock */,
 				89CA37E520506D0F004A0121 /* Sources */,
 				89CA37E620506D0F004A0121 /* Frameworks */,
 				89CA37E720506D0F004A0121 /* Resources */,
+				6CBC3E3CFDD170FB990377D8 /* [CP] Embed Pods Frameworks */,
+				1C4F193C47941995F3D25313 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +248,7 @@
 				TargetAttributes = {
 					89CA37C720506D0F004A0121 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					89CA37DD20506D0F004A0121 = {
 						CreatedOnToolsVersion = 9.2;
@@ -236,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89CA37D820506D0F004A0121 /* LaunchScreen.storyboard in Resources */,
+				89ADAC792051F8AF001BC881 /* GoogleService-Info.plist in Resources */,
 				89CA37D520506D0F004A0121 /* Assets.xcassets in Resources */,
 				89CA37D320506D0F004A0121 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +309,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		189ADA5FDFB4BED35B1D4D29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HomelessShelter/Pods-HomelessShelter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomelessShelter/Pods-HomelessShelter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C4F193C47941995F3D25313 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomelessShelterUITests/Pods-HomelessShelterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		480F43284C1BB97406F46097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomelessShelterTests/Pods-HomelessShelterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		542664E18EBB540DA95E2315 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomelessShelterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		579142B89279D56851F31E88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomelessShelterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FEC979CE1EE8DA98584EB3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomelessShelter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBC3E3CFDD170FB990377D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomelessShelterUITests/Pods-HomelessShelterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94AA272A6FD6411E15CBDA8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomelessShelter/Pods-HomelessShelter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93205E4F65E12E169826830 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomelessShelterTests/Pods-HomelessShelterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89CA37C420506D0F004A0121 /* Sources */ = {
@@ -428,13 +635,16 @@
 		};
 		89CA37F320506D0F004A0121 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC136938D8C70B0C41B1F1FB /* Pods-HomelessShelter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HomelessShelter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Spyper.HomelessShelter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,13 +652,16 @@
 		};
 		89CA37F420506D0F004A0121 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D8C6FABDC37B0C7797C12A /* Pods-HomelessShelter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HomelessShelter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Spyper.HomelessShelter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +669,7 @@
 		};
 		89CA37F620506D0F004A0121 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4347C43773B1F2CAF262336D /* Pods-HomelessShelterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +686,7 @@
 		};
 		89CA37F720506D0F004A0121 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017DABBEE49AFEB01BC45C9F /* Pods-HomelessShelterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +703,7 @@
 		};
 		89CA37F920506D0F004A0121 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2C8EF0C16637F63E71CCC1 /* Pods-HomelessShelterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +719,7 @@
 		};
 		89CA37FA20506D0F004A0121 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BCA7D7F3D6C127DA90FBB0 /* Pods-HomelessShelterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
